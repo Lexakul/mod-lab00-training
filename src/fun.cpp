@@ -1,9 +1,9 @@
 #include "fun.h"
 #include <iostream>
 
-    short power(long long x, unsigned short n)
+int64_t power(int64_t x, uint16_t n)
     { 
-        int y = 1;
+    int64_t y = 1;
         for (int i = 0; i < n; i++)
         {
             y *= x;
@@ -12,3 +12,5 @@
     };
     
        
+    
+
