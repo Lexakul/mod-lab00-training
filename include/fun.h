@@ -3,8 +3,8 @@
 #define INCLUDE_FUN_H_
 #include <cstdint>
 using namespace std;
-long long x;
-unsigned short n;
-short power(long long x, unsigned short n);
+int64_t x;
+unsigned uint16_t n;
+int64_t  power(int64_t x, uint16_t n);
 
 #endif  // INCLUDE_FUN_H_
